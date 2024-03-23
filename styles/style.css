@@ -7,7 +7,7 @@
 }
 
 :root{
-    --primary: #7baedf; 
+    --primary: #2185D5; 
     --secondary: #FCD757; 
     --gradient: radial-gradient(circle at bottom right,rgba(0,62,94,1) 0%, rgb(35, 96, 146) 25%, rgba(10,60,111,1) 50%, rgba(0,17,41,1) 80%);
     --black-50: rgba(0,0,0,0.5);
