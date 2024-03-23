@@ -71,6 +71,8 @@ header > a:hover {
 
 section {
     padding: 1rem;
+    flex: 1;
+    overflow: hidden;
 }
 
 section .about{
