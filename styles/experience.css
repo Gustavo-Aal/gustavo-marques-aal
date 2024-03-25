@@ -1,0 +1,56 @@
+
+.experience,
+.experience div{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience{
+    gap: 1em;
+}
+
+.experience h2{
+    margin-bottom: .75em;
+}
+
+.experience section > article{
+    border: 1px solid var(--primary);
+    border-radius: 0.75em;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.experience section > article .description{
+    flex: 1;
+}
+
+.experience section > article p{
+    margin-bottom: 0.5em;
+}
+
+
+.experience section.education{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.experience section.tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.experience section.tech > article{
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+.experience section.tech > article .description{
+    display: flex;
+    justify-content: center;
+}
+.experience section.tech > article .description h2{
+    margin: 0
+}

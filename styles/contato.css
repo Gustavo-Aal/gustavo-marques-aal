@@ -58,6 +58,7 @@ section.contact{
 
 .contact_info .linkedin {
     color: white;
+    padding: 0.5em;
     background-color: var(--primary) !important;
     transition-duration: 0.35s;
 }
