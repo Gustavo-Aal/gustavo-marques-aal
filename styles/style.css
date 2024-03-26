@@ -82,47 +82,7 @@ body > div {
     flex: 1;
     overflow: hidden;
 }
-
-section .about{
-    display: flex;
-    gap: 1em;
-}
-
-section .about > .content {
-    background-color: #fff;
-}
-
 .title {
     border-bottom: 2px solid var(--primary);
 }
 
-
-/* Sobre */
-    .about > .img_container{
-        border-radius: 16px;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-    }
-
-    @media screen and (max-width: 1520px){
-        .about > .img_container{
-            flex: 1;
-        }
-
-        .about > p{
-            flex: 1
-        }
-    }
-
-    .img_container img{
-        margin: 0 auto
-    }
-
-    .about > div > p {
-        flex: 2;
-        margin: 0.5em;
-        text-align: justify;
-        font-size: 1.25em;
-    }
-  
