@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo Marques Aal</title>
 
+    <!-- Links para o estilo global e específico da página -->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/portfolio.css">
     
+    <!-- Links para adicionar a fonte do Google Fonts -->    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
@@ -18,6 +20,7 @@
             Gustavo Marques Aal
         </a>
     </header>
+    <!-- Navbar com os links para as demais páginas -->
     <nav>
         <ul>
             <li>
@@ -38,12 +41,16 @@
         </ul>
 
     </nav>
+    <!-- Conteúdo da página -->
     <section style="display: flex; flex-direction: column;padding: 0;">
         <div class="portfolio">
+            <!-- Cada article é uma flexbox -->
             <article style="background: var(--gradient-black); border:none; color: white">
+                <!-- a class 'image' faz a div 2 frações (flex: 2) da flexbox -->
                 <div class="image">
                     <img src="images/github.png" height="300px">
                 </div>
+                <!-- a class 'desciption' faz a div ocupar 3 frações (flex: 3) da flexbox -->
                 <div class="description">
                     <h2>GitHub</h2>
                     <a 
