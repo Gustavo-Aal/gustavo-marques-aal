@@ -19,6 +19,7 @@
 .portfolio > article a.link{
     padding: 0;
     font-weight: 700;
+    color: var(--primary);
 }
 .portfolio > article a.link:hover{
     padding: 0;
